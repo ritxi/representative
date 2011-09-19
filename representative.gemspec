@@ -21,6 +21,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency("rspec", "~> 2.5.0")
   gem.add_development_dependency("tilt", ">= 0.9")
   gem.add_development_dependency("diff-lcs")
+  gem.add_development_dependency("fuubar")
 
   gem.require_path = "lib"
   gem.files = Dir["lib/**/*", "examples/**/*", "README.markdown", "LICENSE"]
